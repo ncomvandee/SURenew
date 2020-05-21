@@ -3,138 +3,120 @@
     "Id": "jenlooper-cactus",
     "Maker": "@jenlooper",
     "img": "https://www.westelm.com/weimgs/ab/images/wcm/products/201951/0024/mid-century-swivel-office-chair-velvet-1-c.jpg",
-    "Url": "",
     "Title": "Blue velvet chair",
-    "Description": "I've had this chair in my office for a while and don't use it much. Good condition.",
-    "Ratings": [
-      5,
-      5
-    ]
+    "Date":  "5/25/2020",
+    "Description": "I've had this chair in my office for a while and don't use it much. Good condition."
   },
   {
     "Id": "jenlooper-light",
     "Maker": "jenlooper",
     "img": "https://target.scene7.com/is/image/Target/GUEST_3703c26d-4db2-49e5-851e-5342a118b87a?wid=488&hei=488&fmt=pjpeg",
-    "Url": "",
     "Title": "Desk lamp",
-    "Description": "Lamp is in fair condition, still works pretty well.",
-    "Ratings": null
+    "Date": "5/25/2020",
+    "Description": "Lamp is in fair condition, still works pretty well."
   },
   {
     "Id": "jenlooper-lightshow",
     "Maker": "@jenlooper",
     "img": "https://i.pinimg.com/originals/e2/5b/b6/e25bb6c2ffc072d8cdff4e8fe27fc861.jpg",
-    "Url": "",
     "Title": "Green pull chain lamp",
-    "Description": "Good condition, old fashioned pull chain mechanism.",
-    "Ratings": null
+    "Date": "5/25/2020",
+    "Description": "Good condition, old fashioned pull chain mechanism."
   },
   {
     "Id": "jenlooper-survival",
     "Maker": "jenlooper",
     "img": "https://www.ikea.com/us/en/images/products/galant-file-cabinet-black-stained-ash-veneer__0613264_PE686192_S5.JPG",
-    "Url": "",
     "Title": "Filing cabinet",
-    "Description": "Black 3 Drawer filing cabinet. Fair condition.",
-    "Ratings": null
+    "Date": "5/25/2020",
+    "Description": "Black 3 Drawer filing cabinet. Fair condition."
   },
   {
     "Id": "sailorhg-bubblesortpic",
     "Maker": "sailorhg",
     "img": "https://target.scene7.com/is/image/Target/GUEST_6c2722a3-f679-4004-b4fa-078d8f88603a",
-    "Url": "",
     "Title": "Side table",
-    "Description": "Small white side table, brand new.",
-    "Ratings": null
+    "Date": "5/25/2020",
+    "Description": "Small white side table, brand new."
   },
   {
     "Id": "sailorhg-corsage",
     "Maker": "sailorhg",
     "img": "https://www.ikea.com/us/en/images/products/arkelstorp-desk__0735967_PE740301_S5.JPG",
-    "Url": "",
     "Title": "Desk",
-    "Description": "Small wooden desk with drawers. Good condition overall.",
-    "Ratings": null
+    "Date": "5/26/2020",
+    "Description": "Small wooden desk with drawers. Good condition overall."
   },
   {
     "Id": "sailorhg-kit",
     "Maker": "sailorhg",
     "img": "https://target.scene7.com/is/image/Target/GUEST_9de50ffb-6101-4ac9-ace9-1ff279150a41?wid=488&hei=488&fmt=pjpeg",
-    "Url": "",
     "Title": "Pencil holder",
-    "Description": "Black mesh pencil holder. Has lots of compartments. Like new!",
-    "Ratings": null
+    "Date": "5/26/2020",
+    "Description": "Black mesh pencil holder. Has lots of compartments. Like new!"
   },
   {
     "Id": "sailorhg-led",
     "Maker": "sailorhg",
     "img": "https://i5.walmartimages.com/asr/8fb0ed1a-8209-4560-9805-288388b91983_1.6f257c598de37b67db9fb79c81a71993.jpeg",
-    "Url": "",
     "Title": "TI-84 Plus Calculator",
-    "Description": "I've given up on math, this calculator is brand new.",
-    "Ratings": null
+    "Date": "5/26/2020",
+    "Description": "I've given up on math, this calculator is brand new."
   },
   {
     "Id": "selinazawacki-soi-shirt",
     "Maker": "selinazawacki",
     "img": "https://carl-officeproducts.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/c/cc-2000.jpg",
-    "Url": "",
     "Title": "Pencil sharpener",
-    "Description": "Grey pencil sharpener, electric with a hand crank. Good condition.",
-    "Ratings": null
+    "Date": "5/26/2020",
+    "Description": "Grey pencil sharpener, electric with a hand crank. Good condition."
   },
   {
     "Id": "selinazawacki-soi-pins",
     "Maker": "selinazawacki",
     "img": "https://www.androidcentral.com/sites/androidcentral.com/files/article_images/2020/03/amazon-basics-classic-leather-office-desk-chair.jpg?itok=ZcnbWYpK",
-    "Url": "",
     "Title": "Office chair",
-    "Description": "Black office chair with wheels. Has a little bit of dog hair, still in good condition though. ",
-    "Ratings": null
+    "Date": "5/26/2020",
+    "Description": "Black office chair with wheels. Has a little bit of dog hair, still in good condition though. "
   },
   {
     "Id": "vogueandcode-hipster-dev-bro",
     "Maker": "vogueandcode",
     "img": "https://target.scene7.com/is/image/Target/GUEST_e57d314b-58cf-4bc0-8478-8dd073c4df10",
-    "Url": "",
     "Title": "Desk fan",
-    "Description": "Small personal desk fan, fair condition.",
-    "Ratings": null
+    "Date": "5/26/2020",
+    "Description": "Small personal desk fan, fair condition."
   },
   {
     "Id": "vogueandcode-pretty-girls-code-tee",
     "Maker": "vogueandcode",
     "img": "https://images.crateandbarrel.com/is/image/Crate/LorneWallClockSHF16",
-    "Url": "",
     "Title": "Large wall clock",
-    "Description": "Easy to read, battery powered. Good condition.",
-    "Ratings": null
+    "Date": "5/26/2020",
+    "Description": "Easy to read, battery powered. Good condition."
   },
   {
     "Id": "vogueandcode-ruby-sis-2",
     "Maker": "vogueandcode",
     "img": "https://images.homedepot-static.com/productImages/5758e2ad-5837-4fcf-82aa-e43d6627ec4d/svn/natural-international-concepts-dining-chairs-c01-212-64_1000.jpg",
-    "Url": "",
     "Title": "Dining chair",
-    "Description": "Wooden dining chair, great condition.",
-    "Ratings": null
+    "Date": "5/26/2020",
+    "Description": "Wooden dining chair, great condition."
   },
   {
     "Id": "selinazawacki-moon",
     "Maker": "selinazawacki",
     "img": "https://static.grainger.com/rp/s/is/image/Grainger/36WG61_AW01?$zmmain$",
-    "Url": "",
     "Title": "Tape dispenser",
-    "Description": "lightly used, comes with a roll of tape.",
-    "Ratings": null
+    "Date": "5/27/2020",
+    "Description": "lightly used, comes with a roll of tape."
   },
   {
     "Id": "selinazawacki-shirt",
     "Maker": "selinazawacki",
     "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HN0M2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1564700882498",
-    "Url": "",
     "Title": "Noise canceling headphones",
-    "Description": "Great condition, one generation behind the newest.",
-    "Ratings": null
+    "Date": "5/27/2020",
+    "Description": "Great condition, one generation behind the newest."
   }
 ]

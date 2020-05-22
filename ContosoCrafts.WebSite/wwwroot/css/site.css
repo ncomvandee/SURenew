@@ -1,8 +1,4 @@
-﻿.card-img {
-    padding-left: 1.25em;
-}
-
-
+﻿
 
 * {
     box-sizing: border-box
@@ -20,6 +16,13 @@ body {
     width: 8%;
     height: 2400px;
 }
+
+    .tab img {
+        max-width: 100%;
+        height: auto;
+        width: auto\9;
+       
+    }
 
     /* Style the buttons inside the tab */
     .tab button {

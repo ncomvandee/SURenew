@@ -7,103 +7,51 @@
     <title>@ViewData["Title"] - SURenew</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
-    
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-toggleable-lg navbar-light bg-navbar border-bottom box-shadow">
-            <div class="container">
+        <nav class="navbar navbar-light bg-navbar border-bottom box-shadow">
+            <div class="container justify-content-sm-start">
                 <div class="img-container" id="SU">
                     <img border="0" alt="SU" src="~/img/Seattle_Redhawks_logo.svg.png" width="50" height="50">
                 </div>
                 <h1 class="navbar-brand">Renew</h1>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-page="/Homepage">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-page="/Login">Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-page="/AdminHomepage">Admin</a>
-                        </li>
-                    </ul>
-                </div>
             </div>
         </nav>
     </header>
-
 
     <div class="tab">
         <div class="img-container">
             <img border="0" alt="SURenew" src="~/img/SURenewLogo.svg.png" width="125" height="125">
         </div>
-        <button class="tablinks" onclick="openCity(event, 'Login')" id="defaultOpen">Login</button>
-        <button class="tablinks" onclick="openCity(event, 'Home')">Home</button>
-        <button class="tablinks" onclick="openCity(event, 'About')">About</button>
-        <button class="tablinks" onclick="openCity(event, 'ViewPosts')">View Posts</button>
-        <button class="tablinks" onclick="openCity(event, 'NewPost')">New Post</button>
-        <button class="tablinks" onclick="openCity(event, 'MyPosts')">My Posts</button>
-
-    </div>
-    <div id="Login" class="tabcontent">
-        <main role="main" class="pb-3">
-            <h3>Login</h3>
-        </main>
-    </div>
-
-    <div id="Home" class="tabcontent">
-       
-            <h3>Home</h3>
-      
-    </div>
-
-    <div id="About" class="tabcontent">
-        <h3>About</h3>
+        <ul class="flex-grow-1">
+            <li class="nav-item">
+                <a class="nav-link text-light" asp-area="" asp-page="/Homepage">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" asp-area="" asp-page="/Privacy">Privacy</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" asp-area="" asp-page="/Login">Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" asp-area="" asp-page="/AdminHomepage">Admin</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" asp-area="" asp-page="/Index">View Posts</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" asp-area="" asp-page="/NewPost">New Post</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" asp-area="" asp-page="/MyPost">My Posts</a>
+            </li>
+        </ul>
     </div>
 
     <div id="ViewPosts" class="tabcontent">
-
         @RenderBody()
-
     </div>
-
-    <div id="NewPost" class="tabcontent">
-        <h3>New Post</h3>
-    </div>
-
-    <div id="MyPosts" class="tabcontent">
-        <h3>My Posts</h3>
-    </div>
-
-
-    <script>
-        function openCity(evt, cityName) {
-            var i, tabcontent, tablinks;
-            tabcontent = document.getElementsByClassName("tabcontent");
-            for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
-            }
-            tablinks = document.getElementsByClassName("tablinks");
-            for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" active", "");
-            }
-            document.getElementById(cityName).style.display = "block";
-            evt.currentTarget.className += " active";
-        }
-
-        // Get the element with id="defaultOpen" and click on it
-        document.getElementById("defaultOpen").click();
-    </script>
-
 
     <footer class="border-top footer text-muted">
         <div class="container">

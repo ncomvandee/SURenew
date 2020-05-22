@@ -16,7 +16,9 @@ body {
     width: 8%;
     height: 2400px;
 }
-
+.img-container {
+    text-align: center;
+}
     .tab img {
         max-width: 100%;
         height: auto;

@@ -65,6 +65,12 @@ body {
     padding-bottom: 5px; 
 }
 
+.lead {
+    font-weight: bold;
+    text-shadow: 5px 5px 5px #000000;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: darkred;
+}
 
 #jumbotron {
     background-image: url(https://www.seattleu.edu/mysu/default-titlebanner-lg.jpg);

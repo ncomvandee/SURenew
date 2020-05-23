@@ -66,9 +66,11 @@ body {
 }
 
 
-
-
-
+#jumbotron {
+    background-image: url(https://www.seattleu.edu/mysu/default-titlebanner-lg.jpg);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
 
 
 .checked {

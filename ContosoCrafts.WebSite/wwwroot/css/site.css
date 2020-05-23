@@ -72,6 +72,28 @@ body {
     -webkit-text-stroke-color: darkred;
 }
 
+#cardDark {
+    background-color: #333333;
+    border-color: #333333;
+}
+
+#cardDarkBody {
+    background-color: #333333;
+    border-color: #333333;
+}
+
+#cardBodyDark {
+    background-color: #333333;
+    border-color: #333333;
+}
+
+#cardGrey {
+    background-color: #808080;
+    border-color: #808080; 
+}
+
+
+
 #jumbotron {
     background-image: url(https://www.seattleu.edu/mysu/default-titlebanner-lg.jpg);
     color: white;

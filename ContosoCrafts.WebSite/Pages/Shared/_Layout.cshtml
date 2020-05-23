@@ -9,28 +9,45 @@
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-light bg-navbar border-bottom box-shadow">
-            <div class="container justify-content-sm-start">
-                <div class="img-container" id="SU">
-                    <img border="0" alt="SU" src="~/img/Seattle_Redhawks_logo.svg.png" width="50" height="50">
-                </div>
+
+
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-navbar border-bottom box-shadow mb-3">
+        <div class="container">
+            <div class="img-container" id="SU">
+                <img border="0" alt="SU" src="~/img/Seattle_Redhawks_logo.svg.png" width="50" height="50">
                 <h1 class="navbar-brand">Renew</h1>
             </div>
-        </nav>
-    </header>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse justify-content-end">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <form class="form-inline">
+                            <input class="form-control form-control-sm mr-3 w-75 " id="navSearch" type="text" placeholder="Search"
+                                   aria-label="Search">
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+   
+
+
 
     <div class="tab">
         <div class="img-container">
             <img border="0" alt="SURenew" src="~/img/SURenewLogo.svg.png" width="125" height="125">
         </div>
-        <ul class="flex-grow-1">
+        <ul class="flex-grow-1 list-unstyled">
             <li class="nav-item">
                 <a class="nav-link text-light" asp-area="" asp-page="/Homepage">Home</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link text-light" asp-area="" asp-page="/Privacy">Privacy</a>
-            </li>
+
             <li class="nav-item">
                 <a class="nav-link text-light" asp-area="" asp-page="/Login">Login</a>
             </li>

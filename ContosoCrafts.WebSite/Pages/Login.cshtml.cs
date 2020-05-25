@@ -20,12 +20,20 @@ namespace SURenew.Pages
 
         public IActionResult OnPost()
         {
-            if (Account.email != "jbarrons@seattleu.edu")
+            
+            if (Account.email == "jbarrons@seattleu.edu") 
+            {
+                return RedirectToPage("/AdminHomePage");
+                
+            } else if (Account.email == "eedwards@seattleu.edu")
             {
                 return RedirectToPage("/Homepage");
+            } else
+            {
+                return RedirectToPage("/Login");
             }
 
-            return RedirectToPage("/AdminHomePage");
+            
         }
     }
 }

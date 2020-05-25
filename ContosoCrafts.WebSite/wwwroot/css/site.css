@@ -92,6 +92,25 @@ body {
     border-color: #808080; 
 }
 
+#myPostContainer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+}
+
+#myPostCard {
+    border: 2px solid #aa0000;
+    max-width: 400px;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+#newPostHeading {
+    font-family: 'Montserrat', sans-serif;
+}
 
 
 #jumbotron {

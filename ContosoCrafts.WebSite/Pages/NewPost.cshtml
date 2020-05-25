@@ -4,61 +4,43 @@
     ViewData["Title"] = "NewPost";
 }
 
-<div class="text-center" id="newPostHeading">
+<div class="text-center">
     <h1 class="display-4">New Post</h1>
 </div>
 
-<div class="container-fluid" id="myPostContainer">
-    <div class="card card-columns" id="myPostCard">
-        <p class="font-italic"> * => Required Fields</p>
+<div class="container-fluid">
+    <p class="font-italic"> * => Required Fields</p>
 
-        <label for="title">*Title: </label> <br />
-        <input class="flex-shrink-1" type="text" id="title" name="title" /> <br>
-        <br />
+    <label for="title">*Title: </label> <br />
+    <input type="text" id="title" name="title" /> <br>
+    <br />
 
-        <label for="desc">*Description: </label> <br />
-        <textarea class="flex-shrink-1" id="desc" rows="4" cols="50"></textarea><br />
-        <br />
+    <label for="desc">*Description: </label> <br />
+    <textarea id="desc" rows="4" cols="50"></textarea><br />
+    <br />
 
-        <label for="category">Category: </label><br />
-        <select id="category" name="category">
-            <option value="furniture">Furniture</option>
-            <option value="lighting">Lighting</option>
-            <option value="books">Books</option>
-            <option value="electronics">Electronics</option>
-            <option value="decorations">Decorations</option>
-            <option value="office">Office Goods</option>
-        </select><br />
+    <label for="category">Category: </label><br />
+    <select id="category" name="category">
+        <option value="furniture">Furniture</option>
+        <option value="lighting">Lighting</option>
+        <option value="books">Books</option>
+        <option value="electronics">Electronics</option>
+        <option value="decorations">Decorations</option>
+        <option value="office">Office Goods</option>
+    </select><br />
 
-        <br />
-        <label for="imgupld">Upload Image: </label><br />
-        <input type="file" id="imgupld" name="imgupld" accept="image/png, image/jpeg" /><br />
-        <br />
+    <br />
+    <label for="imgupld">Upload Image: </label><br />
+    <input type="file" id="imgupld" name="imgupld" accept="image/png, image/jpeg" /><br />
+    <br />
 
-        <br />
-        <p>Image Preview: </p>
-        <img src="~/img/default-image.jpg" alt="Default Image" style="max-height: 200px; width: auto" /> <br />
+    <br />
+    <p>Image Preview: </p>
+    <img src="~/img/default-image.jpg" alt="Default Image" style="max-height: 200px; width: auto" /> <br />
 
-        <br />
-        <button type="Submit" class="btn-primary justify-content-center">Submit</button>
-      </div>
+    <br />
+    <input type="submit" style="margin-top: 20px"/>
 
 
-    </div>
+</div>
 
-
-
-
-
-
-
-
-    @*Default wireframe image for the new post page
-        <div class="container-fluid">
-            <div class="row">
-                <a class="" asp-area="" asp-page="ViewPost">
-                    <img class="img-fluid d-block mx-auto" src="~/img/NewPost.png" />
-                </a>
-            </div>
-        </div>
-    *@

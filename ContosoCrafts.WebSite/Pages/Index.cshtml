@@ -4,31 +4,34 @@
     ViewData["Title"] = "Home page";
 }
 
-    <head>
-        <script src="https://kit.fontawesome.com/cefd37f614.js" crossorigin="anonymous"></script>
+<head>
+    <script src="https://kit.fontawesome.com/cefd37f614.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/UserStyle.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
 
-    </head>
-    <div class="text-center">
-        <h1 class="display-4">View Posts</h1>
-        <div class="flex-wrap">
-            <input type="text" class="input" placeholder="Search" />
-            <div class="searchbtn">
-                <i class="fas fa-search"></i>
-            </div>
+</head>
+<div class="text-center">
+    <h1 class="display-4">View Posts</h1>
+    <div class="flex-wrap">
+        <input type="text" class="input" placeholder="Search" />
+        <div class="searchbtn">
+            <i class="fas fa-search"></i>
         </div>
     </div>
-    
+</div>
 
-    <div class ="card-columns">
-    
-        @foreach (var product in Model.Products)
-        {
+
+<div class="card-columns">
+
+    @foreach (var product in Model.Products)
+    {
         <div class="card">
             <div class="card-img" style="background-image: url('@product.Image');"></div>
             <div class="card-body">
                 <h5 class="card-title">@product.Title</h5>
                 <h6 class="card-text">@product.Date</h6>
-            </div>   
+            </div>
         </div>
-        }
-    </div>
+    }
+</div>

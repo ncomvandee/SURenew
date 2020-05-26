@@ -188,7 +188,10 @@ body {
    
 }
 
-
+#searchBar {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
 
 .checked {
     color: orange;

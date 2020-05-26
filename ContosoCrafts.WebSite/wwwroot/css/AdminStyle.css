@@ -1,2 +1,17 @@
 ﻿body {
 }
+
+#RegSideBar 
+{
+    display: none;
+}
+
+#UserMenu
+{
+    display: none;
+}
+
+#navSearch
+{
+    display: none;
+}

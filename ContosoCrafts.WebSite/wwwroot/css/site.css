@@ -193,6 +193,28 @@ body {
     padding-top: 20px;
 }
 
+#whatCanIPost {
+    float: left;
+    max-width: 500px;
+    padding-top: 30px;
+}
+
+#whatCanINotPost {
+    float: left;
+    max-width: 500px;
+    padding-top: 30px;
+    padding-left: 40px
+}
+
+#contact {
+    padding-top: 60px;
+    clear: both;
+}
+
+#learnMore {
+    padding-top: 60px;
+}
+
 .checked {
     color: orange;
 }

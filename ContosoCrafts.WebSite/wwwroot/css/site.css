@@ -188,6 +188,8 @@ body {
    
 }
 
+
+
 #searchBar {
     padding-bottom: 20px;
     padding-top: 20px;
@@ -196,22 +198,35 @@ body {
 #whatCanIPost {
     float: left;
     max-width: 500px;
-    padding-top: 30px;
+    height: 300px;
+    margin-right: 30px;
+    margin-left: 50px;
+    margin-bottom: 60px;
+    margin-top: 60px;
 }
 
 #whatCanINotPost {
     float: left;
     max-width: 500px;
-    padding-top: 30px;
-    padding-left: 40px
+    height: 300px;
+    margin-left: 30px;
+    margin-bottom: 60px;
+    margin-top: 60px;
 }
 
 #contact {
-    padding-top: 60px;
     clear: both;
 }
 
 #learnMore {
+    padding-top: 60px;
+}
+
+#aboutTitle {
+    padding-top: 60px;
+}
+
+#aboutImage {
     padding-top: 60px;
 }
 

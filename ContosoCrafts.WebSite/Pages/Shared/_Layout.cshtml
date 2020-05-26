@@ -10,7 +10,6 @@
 </head>
 <body>
 
-
     <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-navbar border-bottom box-shadow mb-3" id="NavBar">
         <div class="container">
             <div class="img-container" id="SU">
@@ -47,17 +46,12 @@
         </div>
     </nav>
 
-
-   
-
-
-
     <div class="tab" id="SideTab">
         <div class="img-container">
             <img border="0" alt="SURenew" src="~/img/SURenewLogo.svg.png" width="125" height="125">
         </div>
-        <ul class="flex-grow-1 list-unstyled">
-            <li class="nav-item"id="sidebarText">
+        <ul class="flex-grow-1 list-unstyled" id="RegSideBar">
+            <li class="nav-item" id="sidebarText">
                 <a class="nav-link text-light" asp-area="" asp-page="/Homepage">Home</a>
             </li>
             <li class="nav-item" id="sidebarText">
@@ -71,6 +65,20 @@
             </li>
             <li class="nav-item" id="sidebarText">
                 <a class="nav-link text-light" asp-area="" asp-page="/MyPost">My Posts</a>
+            </li>
+            <li class="nav-item" id="sidebarText">
+                <a class="nav-link text-light" asp-area="" asp-page="/About">About</a>
+            </li>
+        </ul>
+        <ul class="flex-grow-1 list-unstyled" id="AdminSideBar">
+            <li class="nav-item" id="sidebarText">
+                <a class="nav-link text-light" asp-area="" asp-page="">Site Statistics</a>
+            </li>
+            <li class="nav-item" id="sidebarText">
+                <a class="nav-link text-light" asp-area="" asp-page="">User Reports</a>
+            </li>
+            <li class="nav-item" id="sidebarText">
+                <a class="nav-link text-light" asp-area="" asp-page="">User Portal</a>
             </li>
             <li class="nav-item" id="sidebarText">
                 <a class="nav-link text-light" asp-area="" asp-page="/About">About</a>

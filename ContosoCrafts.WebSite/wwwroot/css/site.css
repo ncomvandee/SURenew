@@ -108,6 +108,7 @@ body {
     padding: 10px 10px 10px 10px;
 }
 
+
 #myPost {
     border: 2px solid #aa0000;
     max-width: 400px;
@@ -116,7 +117,15 @@ body {
     margin-bottom: 10px;
     padding: 10px 10px 10px 10px;
     margin-top: 50px;
+    max-height: 500px;
 }
+
+.scrollit {
+    overflow: scroll;
+    height: 300px;
+    scrollbar-base-color: #aa0000;
+}
+
 
 #button1 {
     width: 300px;

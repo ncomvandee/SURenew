@@ -167,6 +167,20 @@ body {
     padding-top: 30px;
 }
 
+#saveButton {
+    width: 300px;
+    height: 40px;
+   
+}
+
+#submitButton {
+    width: 300px;
+    height: 40px;
+   
+}
+
+
+
 .checked {
     color: orange;
 }

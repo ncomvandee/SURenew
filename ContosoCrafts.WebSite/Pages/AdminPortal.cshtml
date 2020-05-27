@@ -4,22 +4,29 @@
     ViewData["Title"] = "AdminPortal";
 }
 
-<head>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/AdminStyle.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
-</head>
+    <head>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/AdminStyle.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+    </head>
 
 <div class="card-columns">
-    <div class="card bg-primary">
-        <h4>Active Users</h4>
-        <h5>28</h5>
+    <div class="card">
+        <div class="row">
+            <div class="col-sm-auto">
+                <i class="fa fa-user" id="UserIcon" aria-hidden="true"></i>
+            </div>
+            <div class="col-sm-auto">
+                <p class="card-text">Active Users</p>
+            </div>
+        </div>
     </div>
-    <div class="card bg-success">
+    <div class="card">
         <p class="card-text">Active Posts</p>
         <p class="card-text">78</p>
     </div>
-    <div class="card bg-danger">
+    <div class="card">
         <p class="card-text">Reported Post</p>
         <p class="card-text">8</p>
     </div>

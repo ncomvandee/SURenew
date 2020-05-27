@@ -387,3 +387,8 @@ ul {
     font-size: 48px;
     color: forestgreen;
 }
+
+#FlagedPost {
+    font-size: 48px;
+    color: red;
+}

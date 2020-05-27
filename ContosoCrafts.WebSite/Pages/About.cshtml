@@ -12,61 +12,82 @@
 
 <div class="text-center">
     <h1 class="display-4">About</h1>
-    <h4>Welcome to SURenew, Seattle University's platform dedicated to recycling goods within the community!</h4>
+    <div id="aboutTitle">
+        <h4>Welcome to SURenew, Seattle University's platform dedicated to recycling goods within the community!</h4>
+    </div>
+    
 </div>
 
-
-<div class="container-fluid" style="float: left; max-width: 500px; padding-top: 30px">
-    <h3>What Can I Post?</h3>
-    <ul>
-        <li>Items you own that you would like to give a new home!</li>
-        <li>Examples include furniture, decorations and electronics</li>
-        <li>
-            <b>For SU Faculty: </b>Personal items purchased with SU funds may be posted here. Please make sure to select
-            <i>"This item was purchased with SU funds"</i> when creating a post for the item
-        </li>
-    </ul>
-</div>
-
-
-<div class="container-fluid" style="float: left; max-width: 500px; padding-top: 30px; padding-left: 40px">
-    <h3>What Can I <i>Not</i> Post?</h3>
-    <ul>
-        <li>Items you are selling for money or looking to trade with</li>
-        <li>Items containing inappropriate or offensive content</li>
-        <li>Food, beverages or other perishable items</li>
-        <li>Any type of service offered</li>
-        <li>Links to external sites</li>
-    </ul>
-    <p>For a complete list of information on acceptable items on the site, please refer to our <a href="https://en.wikipedia.org/wiki/Terms_of_service">Terms of Service</a></p>
-</div>
-
-
-<div class="container-fluid" style="padding-top: 60px; clear: both">
-    <h3>I'm Interested In an Item. How Do I Contact the Owner? </h3>
-    <p>
-        All items listed on the site include the Seattle University email address of the owner. You may reach out the owner
-        via email to determine a time and place convenient for picking up the item. Please be aware that someone may have previously
-        asked for the item and that the owner is under no obligation to give their item to any individual. Remember that all communications
-        are with fellow Redhawks, so be courteous!
-    </p>
-</div>
-
-<div class="container-fluid" style="padding-top: 60px">
-    <p>
-        To learn more about Seattle University's commitment to going zero-waste by 2025, please check out our
-        <a href="https://www.seattleu.edu/cejs/campus-sustainability/">Campus Sustainability page.</a>
-    </p>
-</div>
-
-
-@*
-    <div class="container-fluid">
-        <div class="row">
-            <a class="" asp-area="" asp-page="NewPost">
-                <img class="img-fluid d-block mx-auto" src="~/img/About.png" />
-            </a>
+<div class="container-fluid justify-content-center " id="aboutContainer">
+    <div class="card card-columns overflow-auto" id="whatCanIPost">
+        <div class="card-header text-center"id="postBackground">
+            <h3>What Can I Post?</h3>
+        </div>
+        <div class="card-body" >
+            <ul>
+                <li>Items you own that you would like to give a new home!</li>
+                <li>Examples include furniture, decorations and electronics</li>
+                <li>
+                    <b>For SU Faculty: </b>Personal items purchased with SU funds may be posted here. Please make sure to select
+                    <i>"This item was purchased with SU funds"</i> when creating a post for the item
+                </li>
+            </ul>
         </div>
     </div>
-*@
+
+
+    <div class="card card-columns overflow-auto" id="whatCanINotPost">
+        <div class="card-header text-center"id="notPostBackground">
+            <h3>What Can I <i>Not</i> Post?</h3>
+        </div>
+        <div class="card-body" >
+            <ul>
+                <li>Items you are selling for money or looking to trade with</li>
+                <li>Items containing inappropriate or offensive content</li>
+                <li>Food, beverages or other perishable items</li>
+                <li>Any type of service offered</li>
+                <li>Links to external sites</li>
+            </ul>
+            <p>For a complete list of information on acceptable items on the site, please refer to our <a href="https://en.wikipedia.org/wiki/Terms_of_service">Terms of Service</a></p>
+        </div>
+
+    </div>
+
+
+    <div class="card card-columns overflow-auto" id="contact">
+        <div class="card-header text-center"id="contactBackground">
+            <h3>I'm Interested In an Item. How Do I Contact the Owner? </h3>
+        </div>
+        <div class="card-body">
+            <p>
+                All items listed on the site include the Seattle University email address of the owner. You may reach out the owner
+                via email to determine a time and place convenient for picking up the item. Please be aware that someone may have previously
+                asked for the item and that the owner is under no obligation to give their item to any individual. Remember that all communications
+                are with fellow Redhawks, so be courteous!
+            </p>
+        </div>
+    </div>
+
+
+    <div class="img-container text-center"id="aboutImage">
+        <img border="0" alt="SURenew" src="~/img/SURenewLogo.svg.png" width="125" height="125">
+    </div>
+
+    <div class="text-center" id="learnMore">
+        <p>
+            To learn more about Seattle University's commitment to going zero-waste by 2025, please check out our
+            <a href="https://www.seattleu.edu/cejs/campus-sustainability/">Campus Sustainability page.</a>
+        </p>
+    </div>
+</div>
+
+    @*
+        <div class="container-fluid">
+            <div class="row">
+                <a class="" asp-area="" asp-page="NewPost">
+                    <img class="img-fluid d-block mx-auto" src="~/img/About.png" />
+                </a>
+            </div>
+        </div>
+    *@
 

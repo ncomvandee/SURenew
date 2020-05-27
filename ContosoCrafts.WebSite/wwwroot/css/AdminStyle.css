@@ -70,3 +70,10 @@ p {
 #AdminSideBar {
     width: 200px;
 }
+
+#Calendar {
+    width: 385px;
+    height: 285px;
+    border:solid;
+    border-color: black;
+}

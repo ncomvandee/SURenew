@@ -18,30 +18,39 @@
 
 .card {
     background-color: dimgray;
+    border:solid;
+    border-color: black;
 }
 
 .card h4 {
     font-weight: bold;
     color: white;
+    margin-top: -15px;
 }
 
 #UserIcon {
     font-size: 48px;
     color: dodgerblue;
-    padding-top: 4px;
-    padding-left: 10px;
+    padding: 10px;
+    background-color: white;
 }
 
 #CheckPost {
     font-size: 48px;
     color: forestgreen;
-    padding-top: 4px;
-    padding-left: 10px;
+    padding: 10px;
+    background-color: white;
 }
 
 #FlagedPost {
     font-size: 48px;
     color: red;
-    padding-top: 4px;
-    padding-left: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+p {
+    font:bold;
+    font-size:20px;
+    color: white;
 }

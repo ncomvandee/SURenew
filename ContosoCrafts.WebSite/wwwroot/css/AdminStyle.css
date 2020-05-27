@@ -20,6 +20,7 @@
     background-color: dimgray;
     border:solid;
     border-color: black;
+    width: 350px;
 }
 
 .card h4 {
@@ -76,4 +77,8 @@ p {
     height: 285px;
     border:solid;
     border-color: black;
+}
+
+.container-fluid {
+  
 }

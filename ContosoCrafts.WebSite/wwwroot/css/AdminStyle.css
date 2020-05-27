@@ -15,3 +15,33 @@
 {
     display: none;
 }
+
+.card {
+    background-color: dimgray;
+}
+
+.card h4 {
+    font-weight: bold;
+    color: white;
+}
+
+#UserIcon {
+    font-size: 48px;
+    color: dodgerblue;
+    padding-top: 4px;
+    padding-left: 10px;
+}
+
+#CheckPost {
+    font-size: 48px;
+    color: forestgreen;
+    padding-top: 4px;
+    padding-left: 10px;
+}
+
+#FlagedPost {
+    font-size: 48px;
+    color: red;
+    padding-top: 4px;
+    padding-left: 10px;
+}

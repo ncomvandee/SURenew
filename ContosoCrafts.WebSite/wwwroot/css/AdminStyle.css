@@ -77,8 +77,5 @@ p {
     height: 285px;
     border:solid;
     border-color: black;
-}
-
-.container-fluid {
-  
+    margin-left: 15px;
 }

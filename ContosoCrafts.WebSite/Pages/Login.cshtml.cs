@@ -21,7 +21,7 @@ namespace SURenew.Pages
         public IActionResult OnPost()
         {
             
-            if (Account.email == "jbarrons@seattleu.edu") 
+            if (Account.email == "jbarron@seattleu.edu") 
             {
                 return RedirectToPage("/AdminPortal");
                 

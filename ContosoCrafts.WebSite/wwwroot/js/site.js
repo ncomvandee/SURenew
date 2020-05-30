@@ -21,6 +21,10 @@ new Chart(document.getElementById("bar-chart"), {
                 label: "Books",
                 backgroundColor: "#98De4e",
                 data: [3, 6, 5, 7, 4]
+            }, {
+                label: "Electronics",
+                backgroundColor: "#bc95ce",
+                data: [5, 6, 8, 3, 13]
             }
         ]
     },

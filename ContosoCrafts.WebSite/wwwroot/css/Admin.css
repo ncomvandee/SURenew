@@ -1,9 +1,6 @@
 ﻿body {
 }
 
-body {
-}
-
 #RegSideBar {
     display: none;
 }
@@ -23,11 +20,11 @@ body {
     width: 350px;
 }
 
-    .card h4 {
-        font-weight: bold;
-        color: white;
-        margin-top: -15px;
-    }
+.card h4 {
+    font-weight: bold;
+    color: white;
+    margin-top: -15px;
+}
 
 #UserIcon {
     font-size: 48px;
@@ -80,6 +77,12 @@ p {
     margin-left: 15px;
 }
 
-#DaTaFieldCard {
+#DataFieldCard {
+    width: 300px;
     background-color: white;
+}
+
+#txt{
+    font-size: 12px;
+    margin-top: -15px;
 }

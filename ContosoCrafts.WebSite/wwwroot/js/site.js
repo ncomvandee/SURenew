@@ -7,7 +7,7 @@
 new Chart(document.getElementById("bar-chart"), {
     type: 'bar',
     data: {
-        labels: ["Africa", "Asia", "Europe", "Latin America", "North America"],
+        labels: ["5/25/20", "5/26/20", "5/27/20", "5/28/20", "5/29/20"],
         datasets: [
             {
                 label: "Population (millions)",

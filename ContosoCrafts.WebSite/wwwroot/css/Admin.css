@@ -1,0 +1,85 @@
+﻿body {
+}
+
+body {
+}
+
+#RegSideBar {
+    display: none;
+}
+
+#UserMenu {
+    display: none;
+}
+
+#navSearch {
+    display: none;
+}
+
+#QuickStat {
+    background-color: dimgray;
+    border: solid;
+    border-color: black;
+    width: 350px;
+}
+
+    .card h4 {
+        font-weight: bold;
+        color: white;
+        margin-top: -15px;
+    }
+
+#UserIcon {
+    font-size: 48px;
+    color: dodgerblue;
+    padding: 10px;
+    background-color: white;
+}
+
+#CheckPost {
+    font-size: 48px;
+    color: forestgreen;
+    padding: 10px;
+    background-color: white;
+}
+
+#FlagedPost {
+    font-size: 48px;
+    color: red;
+    padding: 10px;
+    background-color: white;
+}
+
+p {
+    font: bold;
+    font-size: 20px;
+    color: white;
+}
+
+#Welcome {
+    height: 100px;
+}
+
+    #Welcome h2 {
+        font-family: fantasy;
+    }
+
+    #Welcome p {
+        font-size: 12px;
+    }
+
+#AdminSideBar {
+    width: 200px;
+}
+
+#Calendar {
+    width: 385px;
+    height: 285px;
+    border: solid;
+    border-color: black;
+    margin-left: 15px;
+}
+
+#DaTaFieldCard {
+    background-color: white;
+}

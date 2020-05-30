@@ -21,9 +21,9 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-sm-auto">* Report type:</div>
-        <div class="col-sm-auto">* Data selection:</div>
-        <div class="col-sm-auto">* Date select:</div>
+        <div class="col-sm-2">* Report type:</div>
+        <div class="col-sm-4">* Data selection:</div>
+        <div class="col-sm-4">* Date select:</div>
     </div>
     <div class="row">
         <div class="col-sm-auto">
@@ -71,6 +71,18 @@
                     </table>
                 </div>
             </div>
+        </div>
+
+        <div class="col-sm-auto">
+            <form action="/action_page.php">
+                <label for="birthday">Start Date:</label>
+                <input type="date" id="DateSelect" name="DateSelect">
+            </form>
+            <br />
+            <form action="/action_page.php">
+                <label for="birthday">End Date  :</label>
+                <input type="date" id="DateSelect" name="DateSelect">
+            </form>
         </div>
     </div>
 </div>

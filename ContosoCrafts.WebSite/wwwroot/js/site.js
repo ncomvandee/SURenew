@@ -37,7 +37,7 @@ new Chart(document.getElementById("bar-chart"), {
         ]
     },
     options: {
-        legend: { display: false },
+        legend: { display: true },
         title: {
             display: true,
             text: 'Items Claimed By Category: 5/25/20 to 5/29/20'

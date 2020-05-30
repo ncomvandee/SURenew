@@ -4,12 +4,12 @@
     ViewData["Title"] = "SiteStatistics";
 }
 
-<head>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/AdminStyle.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
-</head>
+    <head>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/AdminStyle.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+    </head>
 
 <div class="container-fluid" id="Welcome">
     <h2>SURenew // Site Statistics Generator</h2>
@@ -37,13 +37,39 @@
             </select>
         </div>
         <div class="col-sm-auto">
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <div class="input-group-text">
-                        <input type="checkbox">
-                    </div>
+            <div class="card" id="DataFieldCard">
+
+                <div class="scrollit table-hover">
+
+                    <table class="table table-bordered" id="DataTable">
+                        <tbody>
+                            <tr>
+                                <th scope="row"><input type="checkbox" /></th>
+                                <td>Claimed items</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><input type="checkbox" /></th>
+                                <td>Unclaimed items</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><input type="checkbox" /></th>
+                                <td>Students posts</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><input type="checkbox" /></th>
+                                <td>Staffs posts</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><input type="checkbox" /></th>
+                                <td>Reports</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><input type="checkbox" /></th>
+                                <td>Active Users</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-                <input type="text" class="form-control" placeholder="Claimed Items ">
             </div>
         </div>
     </div>

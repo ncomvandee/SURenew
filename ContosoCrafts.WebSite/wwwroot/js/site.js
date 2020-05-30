@@ -25,6 +25,10 @@ new Chart(document.getElementById("bar-chart"), {
                 label: "Electronics",
                 backgroundColor: "#bc95ce",
                 data: [5, 6, 8, 3, 13]
+            }, {
+                label: "Decorations",
+                backgroundColor: "#efdc69",
+                data: [16, 22, 13, 18, 15]
             }
         ]
     },

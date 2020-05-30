@@ -99,3 +99,8 @@ p {
 #ResetButton {
     width: 80px;
 }
+
+#Head {
+    font-size: 20px;
+    color: red;
+}

@@ -17,6 +17,10 @@ new Chart(document.getElementById("bar-chart"), {
                 label: "Lighting",
                 backgroundColor: "#e55b48",
                 data: [16, 7, 26, 14, 21]
+            }, {
+                label: "Books",
+                backgroundColor: "#98De4e",
+                data: [3, 6, 5, 7, 4]
             }
         ]
     },

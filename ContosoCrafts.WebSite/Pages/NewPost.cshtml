@@ -48,14 +48,22 @@
         <br />
         <div class="btn-group btn-group-toggle">
             <button type="Submit" class="btn-secondary justify-content-center" id="saveButton">Save</button>
-            <button type="Submit" class="btn-primary justify-content-center" id="submitButton">Submit</button>
+
+            <button type="Submit" onclick="submitFunction()" class="btn-primary justify-content-center" id="submitButton">Submit</button>
         </div>
     </div>
 
 
-    </div>
+</div>
 
 
+<script>
+function submitFunction() {
+    alert("Your post was submitted succesfully!");
+    //refreshes the page 
+    location.reload();
+}
+</script>
 
 
 

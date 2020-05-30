@@ -13,6 +13,10 @@ new Chart(document.getElementById("bar-chart"), {
                 label: "Furniture",
                 backgroundColor: "#3e95cd",
                 data: [12, 17, 20, 15, 6]
+            }, {
+                label: "Lighting",
+                backgroundColor: "#e55b48",
+                data: [16, 7, 26, 14, 21]
             }
         ]
     },

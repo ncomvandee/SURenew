@@ -249,6 +249,18 @@ body {
 }
 
 
+#viewDescription {
+    max-width: 150px;
+    max-height: 100px;
+    margin-left: 50px;
+    font-size: 11px;
+}
+
+#productCard {
+    margin-bottom: 30px;
+}
+
+
 .checked {
     color: orange;
 }

@@ -29,6 +29,10 @@ new Chart(document.getElementById("bar-chart"), {
                 label: "Decorations",
                 backgroundColor: "#efdc69",
                 data: [16, 22, 13, 18, 15]
+            }, {
+                label: "Office Goods",
+                backgroundColor: "#49ec94",
+                data: [27, 31, 15, 19, 29]
             }
         ]
     },

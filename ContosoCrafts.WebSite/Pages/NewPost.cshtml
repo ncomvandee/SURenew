@@ -47,7 +47,7 @@
 
         <br />
         <div class="btn-group btn-group-toggle">
-            <button type="Submit" class="btn-secondary justify-content-center" id="saveButton">Save</button>
+            <button type="Submit" onclick="saveFunction()" class="btn-secondary justify-content-center" id="saveButton">Save</button>
 
             <button type="Submit" onclick="submitFunction()" class="btn-primary justify-content-center" id="submitButton">Submit</button>
         </div>
@@ -65,7 +65,13 @@ function submitFunction() {
 }
 </script>
 
-
+<script>
+    function saveFunction() {
+        alert("Your post was saved succesfully!");
+        //refreshes the page
+        location.reload();
+    }
+</script>
 
 
 

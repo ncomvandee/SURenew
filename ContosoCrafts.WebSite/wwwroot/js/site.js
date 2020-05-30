@@ -31,7 +31,7 @@ new Chart(document.getElementById("bar-chart"), {
                 data: [16, 22, 13, 18, 15]
             }, {
                 label: "Office Goods",
-                backgroundColor: "#49ec94",
+                backgroundColor: "#f368e4",
                 data: [27, 31, 15, 19, 29]
             }
         ]

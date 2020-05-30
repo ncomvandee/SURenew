@@ -27,11 +27,12 @@
 
     @foreach (var product in Model.Products)
     {
-        <div class="card">
+        <div class="card  overflow-auto" id="productCard">
             <div class="card-img" style="background-image: url('@product.Image');"></div>
-            <div class="card-body">
+            <div class="card-body justify-content-center">
                 <h5 class="card-title">@product.Title</h5>
-                <h6 class="card-text">@product.Date</h6>
+                <h8 class="card-text" id="dateText">@product.Date</h8>
+                <button type="Submit" class="btn-primary justify-content-end btn-group-sm" id="viewDescription">View Description</button>
             </div>
         </div>
     }

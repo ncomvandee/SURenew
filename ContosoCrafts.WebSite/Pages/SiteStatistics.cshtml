@@ -4,34 +4,31 @@
     ViewData["Title"] = "SiteStatistics";
 }
 
-    <head>
-        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="~/css/Admin.css" />
-        <link rel="stylesheet" href="~/css/site.css" />
-    </head>
+<head>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/Admin.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
 
-    <div class="container-fluid" id="Welcome">
-        <h2>SURenew // Site Statistics Generator</h2>
-        <p class="text-body">Tuesday June 2nd, 2020</p>
-        <div id="txt"></div>
-    </div>
-    <body onload="startTime()"></body>
-    
-
-   
-
-   
+<div class="container-fluid" id="Welcome">
+    <h2>SURenew // Site Statistics Generator</h2>
+    <p class="text-body">Tuesday June 2nd, 2020</p>
+    <div id="txt"></div>
+</div>
+<body onload="startTime()">
+</body>
 
 <br />
 <br />
 
-<div class="container-fluid">
+<div class="container-fluid" id="FieldCard">
     <div class="row">
         <div class="col-sm-2">* Report type:</div>
         <div class="col-sm-4">* Data selection:</div>
         <div class="col-sm-4">* Date select:</div>
     </div>
+    <br />
     <div class="row">
         <div class="col-sm-auto">
             <select class="form-control" id="sel1" name="sellist1">
@@ -92,5 +89,8 @@
             </form>
         </div>
     </div>
+    <br />
+
+    <a href="/GeneratedReport" class="btn btn-primary" id="GenerateButton" role="button">Submit</a>
 </div>
 

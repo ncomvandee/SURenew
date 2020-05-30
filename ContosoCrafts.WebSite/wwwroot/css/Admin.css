@@ -86,3 +86,16 @@ p {
     font-size: 12px;
     margin-top: -15px;
 }
+
+#FieldCard {
+    padding-left: 200px;
+}
+
+#GenerateButton {
+    margin-left: 250px;
+    width: 80px;
+}
+
+#ResetButton {
+    width: 80px;
+}

@@ -25,10 +25,13 @@ namespace SURenew.Pages
             {
                 return RedirectToPage("/AdminPortal");
                 
-            } else if (Account.email == "eedwards@seattleu.edu")
+            }
+            
+            if (Account.email == "eedwards@seattleu.edu")
             {
                 return RedirectToPage("/Homepage");
-            } else
+            } 
+            else
             {
                 return RedirectToPage("/Login");
             }

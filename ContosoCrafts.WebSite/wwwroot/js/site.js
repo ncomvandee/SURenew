@@ -61,3 +61,15 @@ function checkTime(i) {
     if (i < 10) { i = "0" + i };  // add zero in front of numbers < 10
     return i;
 }
+
+function SendEmailAttachment() {
+    var person = prompt("Please enter an email:", "jbarron@seattleu.edu");
+
+    if (person == null || person == "") {
+        location.reload();
+    }
+    else {
+        alert("Attachment successfully sent to " + person);
+    }
+
+}

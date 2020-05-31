@@ -260,6 +260,29 @@ body {
     margin-bottom: 30px;
 }
 
+#lampDescription {
+    margin: 0 auto;
+    float: none;
+    max-width: 600px;
+    max-height: 600px;
+}
+
+#lampText {
+    border-bottom: 2px solid #aa0000;
+    border-left: 2px solid #aa0000;
+    border-right: 2px solid #aa0000;
+}
+
+#lampCardText {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+#lampImage {
+    border: 2px solid #aa0000;
+}
+
+
 
 .checked {
     color: orange;

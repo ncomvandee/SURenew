@@ -7,7 +7,7 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/AdminStyle.css" />
+    <link rel="stylesheet" href="~/css/Admin.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 
@@ -19,17 +19,7 @@
 <canvas id="bar-chart" width="800" height="450"></canvas>
 
 
-<button type ="Submit" class="btn-primary justify-content-center btn-lg" id="emailButton">Email Attachment</button>
+<button type ="Submit" onclick="SendEmailAttachment()" class="btn-primary justify-content-center btn-lg" id="emailButton">Email Attachment</button>
 <a href="~/img/data5-25-2020to5-29-2020.PNG" download="data5-25-2020to5-29-202.PNG" class="btn-primary justify-content-center btn-lg">Save</a>
 <a href="~/AdminPortal" class="btn-secondary justify-content-center btn-lg" id="exitGraphButton">Exit</a>
-
-
-@*
-    <div class="container-fluid">
-        <br />
-        <div class="row">
-            <img class="img-fluid d-block mx-auto" src="~/img/GeneratedReport.png" />
-        </div>
-    </div>
-*@
 

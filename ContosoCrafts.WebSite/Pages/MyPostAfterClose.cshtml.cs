@@ -4,10 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using SURenew.Models;
 
 namespace SURenew.Pages
 {
-    public class MyPostModel : PageModel
+    public class MyPostAfterCloseModel : PageModel
     {
         public void OnGet()
         {

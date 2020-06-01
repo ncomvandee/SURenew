@@ -32,7 +32,9 @@
             <div class="card-body justify-content-center">
                 <h5 class="card-title">@product.Title</h5>
                 <h8 class="card-text" id="dateText">@product.Date</h8>
-                <button type="Submit" class="btn-primary justify-content-end btn-group-sm" id="viewDescription">View Description</button>
+                <form asp-page="/LampDescription" id="viewDescription">
+                <button type="Submit" class="btn-primary justify-content-end btn-group-sm" >View Description</button>
+                    </form>
             </div>
         </div>
     }

@@ -1,6 +1,9 @@
 ﻿body {
 }
 
+#AdminMenu {
+    display: none;
+}
 #AdminSideBar {
     display: none;
 }

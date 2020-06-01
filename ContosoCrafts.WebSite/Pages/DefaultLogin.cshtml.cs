@@ -23,7 +23,7 @@ namespace SURenew.Pages
             
             if (Account.email == "jbarron@seattleu.edu") 
             {
-                return RedirectToPage("/AdminHomePage");
+                return RedirectToPage("/AdminPortal");
                 
             }
             if (Account.email == "eedwards@seattleu.edu")

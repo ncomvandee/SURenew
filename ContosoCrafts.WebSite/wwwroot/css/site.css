@@ -255,6 +255,7 @@ body {
     max-height: 100px;
     margin-left: 50px;
     font-size: 11px;
+    float: right; 
 }
 
 #productCard {

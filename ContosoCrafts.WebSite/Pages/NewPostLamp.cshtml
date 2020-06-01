@@ -1,4 +1,87 @@
 ﻿@page
 @model SURenew.Pages.NewPostLampModel
 @{
+    ViewData["Title"] = "NewPostLamp";
 }
+
+<head>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/UserStyle.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+<div class="text-center" id="newPostHeading">
+    <h1 class="display-4">New Post</h1>
+</div>
+
+<div class="container-fluid" id="myPostContainer">
+    <div class="card card-columns" id="myPostCard">
+        <p class="font-italic"> * => Required Fields</p>
+
+        <label for="title">*Title: </label> <br />
+        <input class="flex-shrink-1" type="text" id="title" name="title" /> <br>
+        <br />
+
+        <label for="desc">*Description: </label> <br />
+        <textarea class="flex-shrink-1" id="desc" rows="4" cols="50"></textarea><br />
+        <br />
+
+        <label for="category">Category: </label><br />
+        <select id="category" name="category">
+            <option value="furniture">Furniture</option>
+            <option value="lighting">Lighting</option>
+            <option value="books">Books</option>
+            <option value="electronics">Electronics</option>
+            <option value="decorations">Decorations</option>
+            <option value="office">Office Goods</option>
+        </select><br />
+
+        <br />
+        <label for="imgupld">*Upload Image: </label><br />
+        <input type="file" id="imgupld" name="imgupld" accept="image/png, image/jpeg" onchange="lampUpload()" /><br />
+        <br />
+
+        <br />
+        <p>Image Preview: </p>
+        <img src="~/img/default-image.jpg" alt="Default Image" id="default" style="max-height: 200px; width: auto" />
+        <img id="lamp" style="max-height : 200px; width: auto" />
+        <br />
+
+
+        <br />
+        <div class="btn-group btn-group-toggle">
+            <button type="Submit" onclick="saveFunction()" class="btn-secondary justify-content-center" id="saveButton">Save</button>
+
+            <button type="Submit" onclick="submitFunction()" class="btn-primary justify-content-center" id="submitButton">Submit</button>
+        </div>
+    </div>
+
+
+</div>
+
+
+<script>
+function submitFunction() {
+    alert("Please fill out all required fields!");
+}
+</script>
+
+<script>
+    function saveFunction() {
+        alert("Your post was saved succesfully!");
+        //refreshes the page
+        location.reload();
+    }
+</script>
+
+<script>
+    function lampUpload() {
+        //hides the default display image
+        var defaultImg = document.getElementById('default');
+        defaultImg.style['display'] = 'none';
+
+        //sets image in default display to that of the scenario lamp
+        var lampImg = document.getElementById('lamp');
+        lampImg.src = 'https://target.scene7.com/is/image/Target/GUEST_3703c26d-4db2-49e5-851e-5342a118b87a?wid=488&hei=488&fmt=pjpeg'
+    };
+</script>

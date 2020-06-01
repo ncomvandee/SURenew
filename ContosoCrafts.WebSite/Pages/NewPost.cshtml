@@ -38,12 +38,15 @@
 
         <br />
         <label for="imgupld">Upload Image: </label><br />
-        <input type="file" id="imgupld" name="imgupld" accept="image/png, image/jpeg" /><br />
+        <input type="file" id="imgupld" name="imgupld" accept="image/png, image/jpeg" onchange="lampUpload()"/><br />
         <br />
 
         <br />
         <p>Image Preview: </p>
-        <img src="~/img/default-image.jpg" alt="Default Image" style="max-height: 200px; width: auto" /> <br />
+        <img src="~/img/default-image.jpg" alt="Default Image" id="default" style="max-height: 200px; width: auto" /> 
+        <img id="lamp" style="max-height : 200px; width: auto" />
+        <br />
+
 
         <br />
         <div class="btn-group btn-group-toggle">
@@ -71,6 +74,13 @@ function submitFunction() {
         //refreshes the page
         location.reload();
     }
+</script>
+
+<script>
+    function lampUpload() {
+        var defaultImg = document.getElementById('default');
+        defaultImg.style['display'] = 'none';
+    };
 </script>
 
 

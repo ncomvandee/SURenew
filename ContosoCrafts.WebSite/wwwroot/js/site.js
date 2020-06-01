@@ -73,3 +73,18 @@ function SendEmailAttachment() {
     }
 
 }
+
+function ClosePost() {
+    var person = prompt("This post will be closed and you are not able to access it anymore." +
+                        " Whould you like to send the post details to you email ? ", "eedwards@seattleu.edu");
+
+    if (person == null || person == "") {
+        location.href = "/MyPostAfterClose";
+    }
+    else {
+        alert("Post details successfully sent to " + person);
+        location.href = "/MyPostAfterClose";
+    }
+
+
+}

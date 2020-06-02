@@ -162,10 +162,21 @@ body {
 #loginCard {
     border: 2px solid #aa0000;
     max-width: 400px;
+    min-width: 200px;
     margin: 0 auto;
     float: none;
     margin-bottom: 10px;
     padding: 10px 10px 10px 10px;
+    margin-left: 45%;
+}
+
+#loginCardImage {
+    width: 20%;
+    margin-left: 40%;
+}
+
+#formButton {
+    margin-left: -4%;
 }
 
 #jumbotron {

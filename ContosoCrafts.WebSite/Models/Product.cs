@@ -29,6 +29,7 @@ namespace ContosoCrafts.WebSite.Models
         // Gets/Sets the item description in the view posts page. 
         public string Description { get; set; }
 
+        // Overrides the toString method
         public override string ToString() => JsonSerializer.Serialize<Product>(this);
         
     }

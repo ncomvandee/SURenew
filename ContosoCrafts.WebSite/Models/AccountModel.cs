@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace SURenew.Models
 {
+    // The Account Model class recieves and validates user email and password input. 
     public class AccountModel
     {
-        public string email { get; set; }
-        public string password { get; set; }
+        //Get/Set method for accessing user E-mail
+        public string Email { get; set; }
+        
+        //Get/Set method for accessing user Password.
+        public string Password { get; set; }
 
     }
 }

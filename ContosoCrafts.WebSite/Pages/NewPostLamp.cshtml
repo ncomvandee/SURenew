@@ -17,15 +17,12 @@
 <div class="container-fluid" id="myPostContainer">
     <div class="card card-columns" id="myPostCard">
         <p class="font-italic"> * => Required Fields</p>
-
         <label for="title">*Title: </label> <br />
         <input class="flex-shrink-1" type="text" id="title" name="title" value="Desk Lamp" /> <br>
         <br />
-
         <label for="desc">*Description: </label> <br />
         <textarea class="flex-shrink-1" id="desc" rows="4" cols="50">Lamp is in fair condition, still works pretty well.</textarea><br />
         <br />
-
         <label for="category">Category: </label><br />
         <select id="category" name="category">
             <option value="furniture">Furniture</option>
@@ -35,19 +32,15 @@
             <option value="decorations">Decorations</option>
             <option value="office">Office Goods</option>
         </select><br />
-
         <br />
         <label for="imgupld">*Upload Image: </label><br />
         <input type="file" id="imgupld" name="imgupld" accept="image/png, image/jpeg" onchange="lampUpload()" /><br />
         <br />
-
         <br />
         <p>Image Preview: </p>
-        <img src="~/img/default-image.jpg" alt="Default Image" id="default" style="max-height: 200px; width: auto" />
-        <img id="lamp" style="max-height : 200px; width: auto" />
+        <img src="~/img/default-image.jpg" alt="Default Image" id="default"/>
+        <img id="lamp"/>
         <br />
-
-
         <br />
         <div class="btn-group btn-group-toggle">
             <button type="Submit" onclick="saveFunction()" class="btn-secondary justify-content-center" id="saveButton">Save</button>
@@ -55,8 +48,6 @@
             <button type="Submit" onclick="submitFunction()" class="btn-primary justify-content-center" id="submitButton">Submit</button>
         </div>
     </div>
-
-
 </div>
 
 

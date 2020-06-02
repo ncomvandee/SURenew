@@ -50,15 +50,16 @@
     </div>
 </div>
 
-
 <script>
-function submitFunction() {
-    alert("Thank you for your submission!");
-    location.href = "/NewPost";
+    // Submit function causes a JS pop-up, and upon clicking ok will route to the NewPost page. 
+    function submitFunction() {
+        alert("Thank you for your submission!");
+        location.href = "/NewPost";
 }
 </script>
 
 <script>
+    // The Save function causes a JS popup, and upon clicking ok the page will reload. 
     function saveFunction() {
         alert("Your post was saved succesfully!");
         //refreshes the page
@@ -67,6 +68,8 @@ function submitFunction() {
 </script>
 
 <script>
+    // The Lamp Upload function sets the default image upload to the lamp image for the given scenario. 
+    // Any image selected with the file upload will display the lamp image. 
     function lampUpload() {
         //hides the default display image
         var defaultImg = document.getElementById('default');

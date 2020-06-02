@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace ContosoCrafts.WebSite.Models
 {
+    // The Products class accesses and changes the item data in the View Posts page. 
     public class Product
     {
         // Gets/Sets the post id in the view posts page. 

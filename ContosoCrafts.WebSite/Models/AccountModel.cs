@@ -13,7 +13,7 @@ namespace SURenew.Models
         public string Email { get; set; }
         
         //Get/Set method for accessing user Password.
-        public string password { get; set; }
+        public string Password { get; set; }
 
     }
 }

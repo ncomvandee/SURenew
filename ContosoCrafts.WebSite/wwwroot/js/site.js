@@ -75,12 +75,15 @@ function SendEmailAttachment() {
 }
 
 function ClosePost() {
+
+    confirm("Was your item successfully claimed? Press 'OK' if it was and 'Cancel' if not");
+
     var person = prompt("This post will be closed and you are not able to access it anymore." +
                         " Whould you like to send the post details to you email ? ", "eedwards@seattleu.edu");
 
     if (person != null && person != "") {
         alert("Post details successfully sent to " + person);
     }
-    confirm("Was your item successfully claimed? Press 'OK' if it was and 'Cancel' if not");
+    
     location.href = "/MyPostAfterClose";
 }

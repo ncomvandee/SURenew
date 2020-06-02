@@ -10,7 +10,7 @@ namespace SURenew.Models
     public class AccountModel
     {
         //Get/Set method for accessing user E-mail
-        public string email { get; set; }
+        public string Email { get; set; }
         
         //Get/Set method for accessing user Password.
         public string password { get; set; }

@@ -9,16 +9,23 @@ namespace ContosoCrafts.WebSite.Models
 {
     public class Product
     {
+        // Gets/Sets the post id in the view posts page. 
         public string Id { get; set;}
+       
+        // Gets/Sets the post author email in the view posts page. 
         public string Maker { get; set; }
 
+        // Gets/Sets the Image in the view posts page
         [JsonPropertyName("img")]
         public string Image { get; set; }
 
+        // Gets/Sets the title of the card in the view posts page. 
         public string Title { get; set; }
 
+        // Gets/Sets the post date in the view posts page. 
         public string Date { get; set; }
 
+        // Gets/Sets the item description in the view posts page. 
         public string Description { get; set; }
 
         public override string ToString() => JsonSerializer.Serialize<Product>(this);

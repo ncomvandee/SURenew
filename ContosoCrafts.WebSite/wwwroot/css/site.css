@@ -1,5 +1,4 @@
 ﻿
-
 * {
     box-sizing: border-box
 }
@@ -179,6 +178,26 @@ body {
     margin-left: -4%;
 }
 
+#loginCardDefault {
+    border: 2px solid #aa0000;
+    max-width: 400px;
+    min-width: 200px;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 45%;
+}
+
+#loginCardDefaultImage {
+    width: 20%;
+    margin-left: 40%;
+}
+
+#formButtonDefault {
+    margin-left: -4%;
+}
+
 #jumbotron {
     background-image: url(https://www.seattleu.edu/mysu/default-titlebanner-lg.jpg);
     color: white;
@@ -200,8 +219,6 @@ body {
     height: 40px;
    
 }
-
-
 
 #searchBar {
     padding-bottom: 20px;
@@ -261,7 +278,6 @@ body {
     padding-top: 60px;
 }
 
-
 #viewDescription {
     max-width: 150px;
     max-height: 100px;
@@ -295,8 +311,6 @@ body {
 #lampImage {
     border: 2px solid #aa0000;
 }
-
-
 
 .checked {
     color: orange;

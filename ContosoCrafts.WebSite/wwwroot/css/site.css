@@ -126,7 +126,6 @@ body {
     scrollbar-base-color: #aa0000;
 }
 
-
 #button1 {
     width: 300px;
     height: 40px;
@@ -310,6 +309,16 @@ body {
 
 #lampImage {
     border: 2px solid #aa0000;
+}
+
+#default {
+    max-height: 200px;
+    width: auto;
+}
+
+#lamp {
+    max-height: 200px;
+    width: auto;
 }
 
 .checked {
